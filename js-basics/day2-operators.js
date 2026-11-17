@@ -3,7 +3,7 @@ counterPass += 3;
 let counterFail = 0;
 counterFail +=2;
 let total = counterPass + counterFail;
-let passRate = Math.floor((3*100)/5);
+let passRate = Math.round(counterPass / total * 100);
 console.log(`Passed: ${counterPass}, Failed: ${counterFail}, Total: ${total}, Passs rate: ${passRate}%`);
 
 const price1 = "120";

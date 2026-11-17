@@ -6,9 +6,9 @@ const product = {
     discount: null,
     rating: 4.6,
 };
-console.log(typeof product.id); //string
+console.log(typeof product.id); //number
 console.log(typeof product.title); //string
 console.log(typeof product.price); //string
-console.log(typeof product.inStock); //number
-console.log(typeof product.discount); //object
+console.log(typeof product.inStock); //boolean
+console.log(typeof product.discount); //null
 console.log(typeof product.rating);//number
